@@ -13,7 +13,7 @@ unsigned long factorial(const unsigned long n) {
     return result;
 }
 
-// int main() {
-//     std::cout << std::format("Factorial {} = {}", 5, factorial(5));
-//     return 0;
-// }
+int main() {
+    std::cout << std::format("Factorial {} = {}", 5, factorial(5));
+    return 0;
+}

@@ -105,18 +105,18 @@ Rational operator /(const Rational &lhs, const Rational &rhs) {
 }
 
 
-// int main() {
-//     Rational a{4, 3}; // 1 1/3
-//
-//     cout << format("a + 20 = {}\n", (a + 20).str());
-//     cout << format("a - 20 = {}\n", (a - 20).str());
-//     cout << format("a * 20 = {}\n", (a * 20).str());
-//     cout << format("a / 20 = {}\n", (a / 20).str());
-//
-//     cout << '\n';
-//
-//     cout << format("20 + a = {}\n", (20 + a).str());
-//     cout << format("20 - a = {}\n", (20 - a).str());
-//     cout << format("20 * a = {}\n", (20 * a).str());
-//     cout << format("20 / a = {}\n", (20 / a).str());
-// }
+int main() {
+    Rational a{4, 3}; // 1 1/3
+
+    cout << format("a + 20 = {}\n", (a + 20).str());
+    cout << format("a - 20 = {}\n", (a - 20).str());
+    cout << format("a * 20 = {}\n", (a * 20).str());
+    cout << format("a / 20 = {}\n", (a / 20).str());
+
+    cout << '\n';
+
+    cout << format("20 + a = {}\n", (20 + a).str());
+    cout << format("20 - a = {}\n", (20 - a).str());
+    cout << format("20 * a = {}\n", (20 * a).str());
+    cout << format("20 / a = {}\n", (20 / a).str());
+}

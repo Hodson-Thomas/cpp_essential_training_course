@@ -1,0 +1,4 @@
+sku: 1, name: Box of 64 Pixels, desc: 64 RGB pixels in a decorative box
+sku: 2, name: Sense of Humor, desc: Especially dry. Imported from England.
+sku: 3, name: Beauty, desc: Inner beauty. No cosmetic surgery required!
+sku: 4, name: Bar Code, desc: Unused. In original packaging.

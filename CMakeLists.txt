@@ -8,4 +8,5 @@ add_executable(cpp_essential_training_course
         challenge2.cpp
         challenge3.cpp
         challenge4.cpp
-        challenge5.cpp)
+        challenge5.cpp
+        challenge6.cpp)

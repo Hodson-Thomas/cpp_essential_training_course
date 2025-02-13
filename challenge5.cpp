@@ -17,11 +17,11 @@ T factorial(T n) {
     return result;
 }
 
-// int main() {
-//     unsigned long n {5};
-//     unsigned int m {5};
-//
-//     cout << format("Factorial of long {} = {}\n", n, factorial(n));
-//     cout << format("Factorial of int  {} = {}\n", m, factorial(m));
-//     return 0;
-// }
+int main() {
+    unsigned long n {5};
+    unsigned int m {5};
+
+    cout << format("Factorial of long {} = {}\n", n, factorial(n));
+    cout << format("Factorial of int  {} = {}\n", m, factorial(m));
+    return 0;
+}

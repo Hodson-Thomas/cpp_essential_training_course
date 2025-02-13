@@ -16,11 +16,11 @@ bool is_prime(const int n) {
     return true;
 }
 
-// int main() {
-//     for (int n {0}; n < 100; ++n) {
-//         if (is_prime(n)) {
-//             std::cout << std::format("{} is prime\n", n);
-//         }
-//     }
-//     return 0;
-// }
+int main() {
+    for (int n {0}; n < 100; ++n) {
+        if (is_prime(n)) {
+            std::cout << std::format("{} is prime\n", n);
+        }
+    }
+    return 0;
+}

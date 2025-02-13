@@ -33,19 +33,19 @@ void display_catalog_card(CatalogCard * card) {
     std::cout << std::format("  Stock            : {}\n", card->quantity_in_stock);
 }
 
-// int main() {
-//     CatalogCard card {
-//         "Foo",
-//         "Bar",
-//         "Buzz",
-//         "Feez",
-//         123456789,
-//         987654321,
-//         123.654789,
-//         1999,
-//         2000,
-//         2
-//     };
-//     display_catalog_card(&card);
-//     return 0;
-// }
+int main() {
+    CatalogCard card {
+        "Foo",
+        "Bar",
+        "Buzz",
+        "Feez",
+        123456789,
+        987654321,
+        123.654789,
+        1999,
+        2000,
+        2
+    };
+    display_catalog_card(&card);
+    return 0;
+}
